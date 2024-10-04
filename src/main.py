@@ -3,6 +3,7 @@ from q1_time import q1_time
 from q2_memory import q2_memory
 from q2_time import q2_time
 from q3_memory import q3_memory
+from q3_time import q3_time
 
 file_path = "data/farmers-protest-tweets-2021-2-4.json"
 
@@ -33,3 +34,5 @@ print("\nMétodo memoria")
 print(q3_memory(file_path))
 
 print("\nMétodo tiempo")
+
+print(q3_time(file_path))
